@@ -51,7 +51,7 @@ public class MyHibernateConfig {
         properties.put("hibernate.format_sql", environment.getRequiredProperty("hibernate.format_sql"));
         return properties;        
     }
-    
+    //hare
 	@Bean
     @Autowired
     public HibernateTransactionManager transactionManager(SessionFactory s) {
